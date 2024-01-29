@@ -67,10 +67,13 @@ Result
 ---
 
 -Transmission time comparison between 2.4GHz(n mode, 200MB) and 5GHz(ac mode, 200MB)
+
 ![Fig_14](https://github.com/INC-Research-Laboratory/Multipath_Model_Transmission/assets/145684303/ac4f81a6-52cd-4439-9390-b580da6492bb)
 
 -Transmission time comparison between 2.4GHz(n mode, 80MB) and 5GHz(ac mode, 320MB)
+
 ![Fig_15](https://github.com/INC-Research-Laboratory/Multipath_Model_Transmission/assets/145684303/c4271bcf-7e68-4ad1-b64d-09abfc317ea5)
 
 -Performance comparison between single path and multi path
+
 ![Fig_17](https://github.com/INC-Research-Laboratory/Multipath_Model_Transmission/assets/145684303/bb20ce5d-a588-46a1-aeef-5b8daddca947)
