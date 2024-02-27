@@ -44,6 +44,31 @@ File
 - `Server` folder
 >**server_main.py** - 실험 초기에 실행 및 서버 작동
 
+Configurations
+----
+
+* **`server_main.py`**
+  - server_thread1 / server_thread2
+    + 서버와 클라이언트 통신을 위한 스레드 생성
+   - concatModel
+      + 클라이언트에게서 받은 모델 병합 및 복원
+      + Single Path 와 Multi Path 를 구분하여 경로에 맞는 복원을 진행
+
+
+*  **`client_1path.py`**
+   - ConvNet
+     + 서버에 전송할 CNN 모델 정의
+   - transMission_thread1 / transMission_thread2
+      + 모델 전송을 위한 스레드 생성
+      + Multi Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 Single Path 로만 전송 진행
+
+*  **`client_2path.py`**
+   - ConvNet
+     + 서버에 전송할 CNN 모델 정의
+   - transMission_thread1 / transMission_thread2
+      + 모델 전송을 위한 스레드 생성
+      + Single Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 Multi Path로 전송 진행
+
 Run 
 ----
 본 실험은 Server 와 Client의 디바이스에서 각 기능에 맞는 코드를 실행시켜야 한다. 
