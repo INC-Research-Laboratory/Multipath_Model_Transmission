@@ -34,15 +34,17 @@ Preparation
 
 File
 ---
-`Final Code` folder
+`Code` folder
+
+- `Server` folder
+>**server_main.py** - 실험 초기에 실행 및 서버 작동
 
 - `Client` folder
 >**Client_1path.py** - 단일 경로 전송 실험시 사용
 
 >**Client_2path.py** - 다중 경로 전송 실험시 사용
 
-- `Server` folder
->**server_main.py** - 실험 초기에 실행 및 서버 작동
+
 
 Configurations
 ----
@@ -73,7 +75,9 @@ Run
 ----
 본 실험은 Server 와 Client의 디바이스에서 각 기능에 맞는 코드를 실행시켜야 한다. 
 
-또한 script는 모두 Linux환경에서 실행한다. 
+또한 **Server_IP** 와 **Client_IP , PORT_NUM**은 각 디바이스의 IP에 맞게 수정해야한다. 
+
+script는 모두 Linux환경에서 실행한다. 
 
 - `Server`
 
