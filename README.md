@@ -62,14 +62,14 @@ Configurations
      + 서버에 전송할 CNN 모델 정의
    - transMission_thread1 / transMission_thread2
       + 모델 전송을 위한 스레드 생성
-      + Multi Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 Single Path 로만 전송 진행
+      + Multi Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 **Single Path** 로만 전송 진행
 
 *  **`client_2path.py`**
    - ConvNet
      + 서버에 전송할 CNN 모델 정의
    - transMission_thread1 / transMission_thread2
       + 모델 전송을 위한 스레드 생성
-      + Single Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 Multi Path로 전송 진행
+      + Single Path와 같은 환경을 위해 2개의 Path 모두 **서버에 연결** 이후 **Multi Path**로 전송 진행
 
 Run 
 ----
