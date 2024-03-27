@@ -1,4 +1,4 @@
-### 실험 진행 시 서버 구동 (우선 구동)
+### 실험 진행 시 서버 구동 (우선 실행)
 import socket
 import threading
 import pickle
