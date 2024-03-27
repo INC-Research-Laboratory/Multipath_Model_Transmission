@@ -15,11 +15,11 @@ Python 3.9 version
 Preparation
 ---
 
-이 실험은 클라이언트 역할을 하는 1개의 Jetson Xavier와 서버 역할을 하는 1개의 Laptop을 사용하였다. 클라이언트에 1개의 NIC, 서버에는 2개의 NIC를 연결하여 주었고, AP 또한 같은 모델을 사용하여서 성능의 차이가 나지 않게 하였다.
+이 실험은 클라이언트 역할을 하는 1개의 Jetson Xavier와 서버 역할을 하는 1개의 Laptop을 사용하였다. 클라이언트에 1개의 NIC, 서버에는 2개의 NIC를 연결하여 주었고, AP 또한 같은 모델을 사용하여서 연결 및 전송 성능의 차이가 나지 않게 하였다.
 
-같은 실험 환경 구현을 위해 하나의 클라이언트에서 서버의 다중 경로(2개의 Path) 연결 이후에 Single Path, Multi Path 실험을 진행하였다. 
+**같은 실험 환경 구현을 위해 하나의 클라이언트에서 서버의 다중 경로(2개의 Path) 연결** 이후에 Single Path, Multi Path 실험을 진행하였다. 
 
-또한 이기종의 특성에 맞게 Multi Path에서의 AP의 버전(ac , n)을 맞추어 주었다.
+또한 **이기종의 특성**에 맞게 **Multi Path에서의 AP의 버전**(ac , n)을 맞추어 주었다.
 
 
 `OS` - Ubuntu 22.04(Server - MSI Sword GF76 A11UE) / Ubuntu 20.04(Client - Jetson Xavier) 
